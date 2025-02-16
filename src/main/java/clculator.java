@@ -16,6 +16,6 @@ public class clculator {
         System.out.println("Sum is = "+cal.add(20,10));
         System.out.println("difference is = "+cal.diff(100,10));
         System.out.println("Multiply is = "+cal.mult(6,9));
-        System.out.println("Divide is = "+cal.mult(25,5));
+        System.out.println("Divide is = "+cal.div(25,5));
     }
 }
