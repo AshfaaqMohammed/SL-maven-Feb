@@ -17,6 +17,9 @@ public class clculator {
     public void greeting(){
         System.out.println("this is from greetings");
     }
+    public void dev(){
+        System.out.println("this is from dev thank you.!");
+    }
     public static void main(String[] args){
         clculator cal = new clculator();
         System.out.println("Sum is = "+cal.add(20,10));
@@ -25,5 +28,6 @@ public class clculator {
         System.out.println("Divide is = "+cal.div(25,5));
         cal.show();
         cal.greeting();
+        cal.dev();
     }
 }
