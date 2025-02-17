@@ -11,6 +11,9 @@ public class clculator {
     public int div(int a, int b){
         return a/b;
     }
+    public void show(){
+        System.out.println("Hello Jenkins");
+    }
     public static void main(String[] args){
         clculator cal = new clculator();
         System.out.println("Sum is = "+cal.add(20,10));
